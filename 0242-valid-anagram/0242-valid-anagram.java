@@ -1,13 +1,30 @@
 class Solution {
     public boolean isAnagram(String s, String t) {
-        char[] s_array= s.toCharArray();
-        char[] t_array= t.toCharArray();
-        Arrays.sort(s_array);
-        Arrays.sort(t_array);
-
-        if ((Arrays.equals(s_array, t_array)) == true){
-            return true;
+        if (s.length() != t.length()) {
+            return false;
         }
-        return false;
-    }
-}
+        // Initialize a hashmap
+        String[] s_array = s.split("");
+        String[] t_array = t.split("");
+        Map<String, Integer> frequencies = new HashMap<>();
+        for (int i = 0; i <= s_array.length - 1; i++) {
+            if (frequencies.get(s_array[i]) != null) {
+                int currentValue = frequencies.get(s_array[i]);
+                System.out.println("current value for " + s_array[i] + " before increasing is: " + currentValue);
+                frequencies.put(s_array[i], ++currentValue);
+                System.out.println("current value for " + s_array[i] + " is: " + currentValue++);
+            } else {
+                frequencies.put(s_array[i], 1);
+                System.out.println("current value for " + s_array[i] + " is: " + 1);
+            }
+        }
+
+        for (int i = 0; i <= t_array.length - 1; i++) {
+            if (frequencies.get(t_array[i]) != null && frequencies.get(t_array[i]) > 0) {
+                    int currentValue = frequencies.get(t_array[i]);
+                    frequencies.put(t_array[i], --currentValue);
+            } else {
+                return false;
+            }
+        }return true;
+}}
