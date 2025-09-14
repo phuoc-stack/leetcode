@@ -10,12 +10,9 @@ class Solution {
         for (int i = 0; i <= s_array.length - 1; i++) {
             if (frequencies.get(s_array[i]) != null) {
                 int currentValue = frequencies.get(s_array[i]);
-                System.out.println("current value for " + s_array[i] + " before increasing is: " + currentValue);
                 frequencies.put(s_array[i], ++currentValue);
-                System.out.println("current value for " + s_array[i] + " is: " + currentValue++);
             } else {
                 frequencies.put(s_array[i], 1);
-                System.out.println("current value for " + s_array[i] + " is: " + 1);
             }
         }
 
