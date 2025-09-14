@@ -1,23 +1,16 @@
-import java.util.HashMap;
-
 class Solution {
     public boolean containsDuplicate(int[] nums) {
-        HashMap<Integer, Integer> numList =  new HashMap<Integer, Integer>();
-        int fre = 0;
-        for (int i=0; i<nums.length; i++) {
-            if (numList.get(nums[i]) != null) {
-                numList.put(nums[i], numList.get(nums[i])+1);
-            } 
-            else {
-                numList.put(nums[i], 1);
-            }
-            System.out.println(numList.get(nums[i]));
-        }
-        for (int num: numList.values()) {
-            if (num > 1) {
+        Map<Integer, Integer> records = new HashMap<>();
+        for (int i=0; i<=nums.length-1; i++){
+            if (records.get(nums[i]) != null){
+                System.out.println("duplicated value of" + nums[i]);
                 return true;
             }
+            else {
+                System.out.println("no duplicated value of" + nums[i]);
+                records.put(nums[i], 1);
+            }
         }
-            return false;
+        return false;
     }
 }
