@@ -28,6 +28,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0049-group-anagrams](https://github.com/phuoc-stack/leetcode/tree/master/0049-group-anagrams) |
 | [0242-valid-anagram](https://github.com/phuoc-stack/leetcode/tree/master/0242-valid-anagram) |
+| [1807-partitioning-into-minimum-number-of-deci-binary-numbers](https://github.com/phuoc-stack/leetcode/tree/master/1807-partitioning-into-minimum-number-of-deci-binary-numbers) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -48,4 +49,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/phuoc-stack/leetcode/tree/master/0347-top-k-frequent-elements) |
+## Greedy
+|  |
+| ------- |
+| [1807-partitioning-into-minimum-number-of-deci-binary-numbers](https://github.com/phuoc-stack/leetcode/tree/master/1807-partitioning-into-minimum-number-of-deci-binary-numbers) |
 <!---LeetCode Topics End-->
