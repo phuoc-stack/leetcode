@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/phuoc-stack/leetcode/tree/master/0001-two-sum) |
+| [0011-container-with-most-water](https://github.com/phuoc-stack/leetcode/tree/master/0011-container-with-most-water) |
 | [0027-remove-element](https://github.com/phuoc-stack/leetcode/tree/master/0027-remove-element) |
 | [0049-group-anagrams](https://github.com/phuoc-stack/leetcode/tree/master/0049-group-anagrams) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/phuoc-stack/leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
@@ -56,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/phuoc-stack/leetcode/tree/master/0011-container-with-most-water) |
 | [1807-partitioning-into-minimum-number-of-deci-binary-numbers](https://github.com/phuoc-stack/leetcode/tree/master/1807-partitioning-into-minimum-number-of-deci-binary-numbers) |
 ## Prefix Sum
 |  |
@@ -64,6 +66,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0011-container-with-most-water](https://github.com/phuoc-stack/leetcode/tree/master/0011-container-with-most-water) |
 | [0027-remove-element](https://github.com/phuoc-stack/leetcode/tree/master/0027-remove-element) |
 | [0125-valid-palindrome](https://github.com/phuoc-stack/leetcode/tree/master/0125-valid-palindrome) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/phuoc-stack/leetcode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
