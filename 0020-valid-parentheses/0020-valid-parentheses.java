@@ -9,12 +9,15 @@ class Solution {
         for (int i = 0; i < s.length(); i++) {
             char c = s.charAt(i);
 
-            if (map.containsValue(c)) {
-                stack.push(c);
-            } else if (map.containsKey(c)) {
-                if (stack.isEmpty() || stack.pop() != map.get(c)) {
+            if (map.containsKey(c)) {
+                if (!stack.isEmpty() && stack.peek() == map.get(c)) {
+                    stack.pop();
+                }
+                else {
                     return false;
                 }
+            } else {
+                stack.push(s.charAt(i));
             }
 
         }
